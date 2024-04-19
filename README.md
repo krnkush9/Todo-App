@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+Todo Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Topic: 
+    Introduction || Components || Functions || How to run the application
 
-## Available Scripts
+Introduction:
+    This is a Todo application. In this application you can add and delete the tasks list. For adding task, write the task name in the “input box” then click on the “Add Task” button. After the adding the tasks, you can see the tasks. For display the tasks, click on the “View Task” button. For delete the tasks, click on the “Delete” button. 
+    This application is responsive for the desktop, tablet and the mobile device.
+    Tailwind CSS has been use to design the application.
 
-In the project directory, you can run:
+Functions:
+    There are only two functions i.e. addTask and removeTask.
 
-### `npm start`
+addTask Function: 
+    This function add tasks in the global store array. So that we can access the array element (tasks).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+removeTask Function: 
+    This function will remove the task form the global storing area i.e. array.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Components: 
+    There are only two components i.e. TaskInput and TaskList.
 
-### `npm test`
+    TaskInput Component: In this component, we have used the form for the taking input and adding the task in the store area.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    TaskList Component: In this component, there are a view task and delete button.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+How to run the application:
+    For run the application, open the code in the VS Code or other code editor then open new terminal then write command for running the application i.e. “npm start”.
+    Then the code will run in the browser.
